@@ -1,0 +1,13 @@
+{
+  "name"  : "valrok",
+  "company": "Valrok ApS",
+  "email" : "support@valrokgames.com",
+  "url"   : "https://valrokgames.com/",
+  "release": {
+    "branches": ["master"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Frederik98347/Valrok.git"
+  }
+}
