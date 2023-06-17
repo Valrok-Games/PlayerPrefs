@@ -1,2 +1,11 @@
-# PlayerPrefs
-Valrok Games tools for unity PlayerPrefs
+## Valrok
+This is tools created for Valrok ApS projects
+
+## Workflows
+Master - ![Semantic-release](https://github.com/Valrok-Games/Valrok/actions/workflows/semantic-release.yml/badge.svg?branch=master)
+
+## Copyright
+Owner: Valrok ApS
+
+## Contact
+Contact: fred@valrokgames.com
