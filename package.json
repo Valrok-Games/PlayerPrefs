@@ -8,6 +8,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Valrok-Games/PlayerPrefs.git"
+    "url": "https://github.com/Valrok-Games/PlayerPrefs.git",
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/changelog",
+        {
+          "changelogFile": "CHANGELOG.md"
+        }
+      ],
+      [
+        "@semantic-release/github",
+        {
+          "assets": ["CHANGELOG.md"]
+        }
+      ],
+      "@semantic-release/git"
+    ]
   }
 }
